@@ -1,0 +1,386 @@
+/*卡牌容器*/
+.card{
+    float: left;
+    height: 115px;
+    width: 85px;
+    background: url(../images/game_pai_ch1.png) -6px -5px;
+    position: relative;
+}
+
+/* 卡牌左上花色小图标 */
+.clubs-small{
+    position: absolute;
+    top: 42px;
+    left:8px;
+    height: 25px;
+    width: 23px;
+    background: url(../images/game_pai_ch1.png) -146px -152px;
+} 
+.diamonds-small{
+    position: absolute;
+    top: 42px;
+    left:8px;
+    height: 25px;
+    width: 23px;
+    background: url(../images/game_pai_ch1.png) -169px -152px;
+} 
+.spades-small{
+    position: absolute;
+    top: 42px;
+    left:8px;
+    height: 25px;
+    width: 23px;
+    background: url(../images/game_pai_ch1.png) -190px -152px;
+} 
+.hearts-small{
+    position: absolute;
+    top: 42px;
+    left:8px;
+    height: 25px;
+    width: 23px;
+    background: url(../images/game_pai_ch1.png) -213px -152px;
+}             
+
+/* 卡牌左上面值a~k，黑色牌：value-suite,包括：value-spades 和 value-clubs */
+.spades-14, .clubs-14{
+    position: absolute;
+    top:10px;
+    left: 9px;
+    height: 32px;
+    width: 24px;
+    background: url(../images/game_pai_ch1.png) -196px -43px;
+}
+.spades-13, .clubs-13{
+    position: absolute;
+    top:10px;
+    left: 9px;
+    height: 32px;
+    width: 24px;
+    background: url(../images/game_pai_ch1.png) -222px -43px;
+}
+.spades-12, .clubs-12{
+    position: absolute;
+    top:10px;
+    left: 9px;
+    height: 32px;
+    width: 24px;
+    background: url(../images/game_pai_ch1.png) -245px -43px;
+}
+.spades-11, .clubs-11{
+    position: absolute;
+    left: 10px;
+    top:10px;
+    height: 32px;
+    width: 22px;
+    background: url(../images/game_pai_ch1.png) -271px -43px;
+}
+.spades-10, .clubs-10{
+    position: absolute;
+    left: 10px;
+    top:10px;
+    height: 32px;
+    width: 22px;
+    background: url(../images/game_pai_ch1.png) -292px -43px;
+}
+.spades-9, .clubs-9{
+    position: absolute;
+    left: 10px;
+    top:10px;
+    height: 32px;
+    width: 22px;
+    background: url(../images/game_pai_ch1.png) -317px -43px;
+}
+.spades-8, .clubs-8{
+    position: absolute;
+    left: 10px;
+    top:10px;
+    height: 32px;
+    width: 22px;
+    background: url(../images/game_pai_ch1.png) -340px -43px;
+}
+.spades-7, .clubs-7{
+    position: absolute;
+    left: 10px;
+    top:10px;
+    height: 32px;
+    width: 22px;
+    background: url(../images/game_pai_ch1.png) -364px -43px;
+}
+.spades-6, .clubs-6{
+    position: absolute;
+    left: 10px;
+    top:10px;
+    height: 32px;
+    width: 22px;
+    background: url(../images/game_pai_ch1.png) -385px -43px;
+}
+.spades-5, .clubs-5{
+    position: absolute;
+    left: 10px;
+    top:10px;
+    height: 32px;
+    width: 22px;
+    background: url(../images/game_pai_ch1.png) -409px -43px;
+}
+.spades-4, .clubs-4{
+    position: absolute;
+    left: 10px;
+    top:10px;
+    height: 32px;
+    width: 22px;
+    background: url(../images/game_pai_ch1.png) -436px -43px;
+}
+.spades-3, .clubs-3{
+    position: absolute;
+    left: 10px;
+    top:10px;
+    height: 32px;
+    width: 22px;
+    background: url(../images/game_pai_ch1.png) -463px -43px;
+}
+.spades-2, .clubs-2{
+    position: absolute;
+    left: 10px;
+    top:10px;
+    height: 32px;
+    width: 22px;
+    background: url(../images/game_pai_ch1.png) -487px -43px;
+}
+
+/* 卡牌左上面值a~k，红色牌：value-suite,包括：value-hearts 和 value-diamonds */
+.hearts-14, .diamonds-14{
+    position: absolute;
+    left: 9px;
+    top:10px;
+    height: 30px;
+    width: 24px;
+    background: url(../images/game_pai_ch1.png) -196px -5px;
+}
+.hearts-13, .diamonds-13{
+    position: absolute;
+    left: 10px;
+    top:10px;
+    height: 32px;
+    width: 22px;
+    background: url(../images/game_pai_ch1.png) -222px -5px;
+}
+.hearts-12, .diamonds-12{
+    position: absolute;
+    left: 10px;
+    top:10px;
+    height: 32px;
+    width: 22px;
+    background: url(../images/game_pai_ch1.png) -245px -5px;
+}
+.hearts-11, .diamonds-11{
+    position: absolute;
+    left: 10px;
+    top:10px;
+    height: 32px;
+    width: 22px;
+    background: url(../images/game_pai_ch1.png) -271px -5px;
+}                        
+.hearts-10, .diamonds-10{
+    position: absolute;
+    left: 10px;
+    top:10px;
+    height: 32px;
+    width: 22px;
+    background: url(../images/game_pai_ch1.png) -292px -5px;
+}                        
+.hearts-9, .diamonds-9{
+    position: absolute;
+    left: 10px;
+    top:10px;
+    height: 32px;
+    width: 22px;
+    background: url(../images/game_pai_ch1.png) -317px -5px;
+}  
+.hearts-8, .diamonds-8{
+    position: absolute;
+    left: 10px;
+    top:10px;
+    height: 32px;
+    width: 22px;
+    background: url(../images/game_pai_ch1.png) -340px -5px;
+}  
+.hearts-7, .diamonds-7{
+    position: absolute;
+    left: 10px;
+    top:10px;
+    height: 32px;
+    width: 22px;
+    background: url(../images/game_pai_ch1.png) -364px -5px;
+}  
+.hearts-6, .diamonds-6{
+    position: absolute;
+    left: 10px;
+    top:10px;
+    height: 32px;
+    width: 22px;
+    background: url(../images/game_pai_ch1.png) -385px -5px;
+}  
+.hearts-5, .diamonds-5{
+    position: absolute;
+    left: 10px;
+    top:10px;
+    height: 32px;
+    width: 22px;
+    background: url(../images/game_pai_ch1.png) -409px -5px;
+}  
+.hearts-4, .diamonds-4{
+    position: absolute;
+    left: 10px;
+    top:10px;
+    height: 32px;
+    width: 22px;
+    background: url(../images/game_pai_ch1.png) -436px -5px;
+}  
+.hearts-3, .diamonds-3{
+    position: absolute;
+    left: 10px;
+    top:10px;
+    height: 32px;
+    width: 22px;
+    background: url(../images/game_pai_ch1.png) -463px -5px;
+}  
+.hearts-2, .diamonds-2{
+    position: absolute;
+    left: 10px;
+    top:10px;
+    height: 32px;
+    width: 22px;
+    background: url(../images/game_pai_ch1.png) -487px -5px;
+}  
+
+/* 卡片右下花色大图标a~10 */
+.spades-big{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    height: 55px;
+    width: 45px;
+    background: url(../images/game_pai_ch1.png) -255px -200px;
+}
+.hearts-big{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    height: 55px;
+    width: 45px;
+    background: url(../images/game_pai_ch1.png) -302px -200px;
+}
+.diamonds-big{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    height: 55px;
+    width: 45px;
+    background: url(../images/game_pai_ch1.png) -210px -200px;
+}
+.clubs-big{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    height: 55px;
+    width: 45px;
+    background: url(../images/game_pai_ch1.png) -165px -200px;
+}
+
+/* 卡牌右下大图标j~k */
+.hearts-big-13{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    height: 88px;
+    width: 65px;
+    background: url(../images/game_pai_ch1.png) -150px -355px;
+}
+.spades-big-13{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    height: 88px;
+    width: 65px;
+    background: url(../images/game_pai_ch1.png) -150px -265px;
+}
+.diamonds-big-13{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    height: 88px;
+    width: 65px;
+    background: url(../images/game_pai_ch1.png) -364px -355px;
+}
+.clubs-big-13{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    height: 88px;
+    width: 65px;
+    background: url(../images/game_pai_ch1.png) -364px -267px;
+}
+.hearts-big-12{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    height: 88px;
+    width: 65px;
+    background: url(../images/game_pai_ch1.png) -76px -355px;
+}
+.spades-big-12{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    height: 88px;
+    width: 65px;
+    background: url(../images/game_pai_ch1.png) -76px -267px;
+}
+.diamonds-big-12{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    height: 88px;
+    width: 65px;
+    background: url(../images/game_pai_ch1.png) -290px -355px;
+}
+.clubs-big-12{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    height: 88px;
+    width: 65px;
+    background: url(../images/game_pai_ch1.png) -290px -267px;
+}
+.hearts-big-11{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    height: 88px;
+    width: 65px;
+    background: url(../images/game_pai_ch1.png) -6px -355px;
+}
+.spades-big-11{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    height: 88px;
+    width: 65px;
+    background: url(../images/game_pai_ch1.png) -6px -267px;
+}
+.diamonds-big-11{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    height: 88px;
+    width: 65px;
+    background: url(../images/game_pai_ch1.png) -218px -355px;
+}
+.clubs-big-11{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    height: 88px;
+    width: 65px;
+    background: url(../images/game_pai_ch1.png) -218px -267px;
+}
